@@ -1,7 +1,8 @@
 import Portal from '../portal';
-// บังคับอัปเดตไฟล์
-export function generateStaticParams() {
-  return [];
+
+export async function generateStaticParams() {
+  // บังคับให้ระบบรู้จักเส้นทางจำลอง 1 เส้นทาง
+  return [{ slug: ['index'] }];
 }
 
 export default function RoutedPage() {
