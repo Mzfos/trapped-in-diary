@@ -1,5 +1,5 @@
 import Portal from '../portal';
-
+// บังคับอัปเดตไฟล์
 export function generateStaticParams() {
   return [];
 }
