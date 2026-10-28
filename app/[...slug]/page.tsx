@@ -1,10 +1,13 @@
 import Portal from '../portal';
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return [
     // หน้าเมนูหลักและเข้าสู่ระบบ
     { slug: ['dashboard'] },
     { slug: ['scenarios'] },
+    { slug: ['assistant'] },
     { slug: ['results'] },
     { slug: ['analytics'] },
     { slug: ['profile'] },
